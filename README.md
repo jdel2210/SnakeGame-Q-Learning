@@ -34,4 +34,4 @@ The AI improves every time it dies (episode ends), using the Q-table it updates 
 ### Run the Game
 
 ```bash
-python snake_ai.py
+python main.py
