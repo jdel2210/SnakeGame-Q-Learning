@@ -1,19 +1,19 @@
-# 🐍 Snake AI with Q-Learning (Pygame)
+# Snake AI with Q-Learning (Pygame)
 
 This project is an implementation of the classic Snake game with a self-learning AI using **Q-learning**, built with **Python** and **Pygame**. The AI learns over time how to play the game better by making decisions that maximize its cumulative reward.
 
-## 📦 Features
+## Features
 
-- ✅ Q-learning algorithm from scratch (no ML libraries required)
-- ✅ Abstract state representation for generalization
-- ✅ Relative action space (STRAIGHT, LEFT, RIGHT)
-- ✅ Intelligent food spawning and collision handling
-- ✅ Reward shaping for faster learning
-- ✅ Adjustable training parameters (alpha, gamma, epsilon)
+- Q-learning algorithm from scratch (no ML libraries required)
+- Abstract state representation for generalization
+- Relative action space (STRAIGHT, LEFT, RIGHT)
+- Intelligent food spawning and collision handling
+- Reward shaping for faster learning
+- Adjustable training parameters (alpha, gamma, epsilon)
 
 ---
 
-## 🎮 Gameplay Overview
+## Gameplay Overview
 
 The snake starts in a random direction and learns to:
 - Find food efficiently
@@ -24,7 +24,7 @@ The AI improves every time it dies (episode ends), using the Q-table it updates 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -35,3 +35,4 @@ The AI improves every time it dies (episode ends), using the Q-table it updates 
 
 ```bash
 python main.py
+```
